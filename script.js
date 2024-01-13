@@ -10,7 +10,7 @@ element.addEventListener("click", function () {
 // coding logic:
 
 // function(str) {
-// const reversedStr = str.split().reverse().join()
+// const reversedStr = str.split("").reverse().join("")
 // if (reversedStr == str) {
 //     return `${reversedStr} is a Palindromed!`
 // } else {
