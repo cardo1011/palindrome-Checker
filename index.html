@@ -1,4 +1,144 @@
+```html
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palindrome Checker</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Verdana, Tahoma, sans-serif;
+        background-color: #0a0a23;
+      }
+
+      header {
+        background-color: #0a0a23;
+        color: white;
+        font-size: 1.7em;
+        text-align: center;
+        padding-top: 15em;
+      }
+
+      .container {
+        width: 35%;
+        height: 30%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+      }
+
+      #input-container {
+        background-color: #f0f0f0;
+        padding: 20px;
+        border-radius: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column; /* Set the flex direction to column */
+        align-items: center;
+      }
+
+      #result-container {
+        background-color: darkgreen;
+        color: white;
+        padding: 2em;
+        border-radius: 10px;
+        width: 100%;
+        margin-top: 1%;
+      }
+
+      #input-container label {
+        font-size: 1.375em;
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+
+      #check-input {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        padding-bottom: 1em;
+      }
+
+      #input-container input {
+        /* margin-bottom: 10px; */
+        flex-direction: row;
+        width: 20em;
+        outline: 0;
+        border-width: 0 0 3px;
+        border-color: purple;
+        background-color: #f0f0f0;
+        font-size: larger;
+      }
+
+      #input-container input:focus {
+        outline: 2px dotted purple;
+        border-radius: 5px;
+      }
+
+      #check-btn {
+        padding: 5%;
+        margin-left: 25px;
+        border: none;
+        border-radius: 5px;
+        background-color: purple;
+        color: #f0f0f0;
+        font-size: large;
+        flex-direction: row;
+      }
+
+      /* a {
+        color: red;
+        text-decoration: none;
+        margin-right: 15px;
+      }
+
+      nav {
+        text-align: center;
+        margin-top: 20px;
+      } */
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Is it a Palindrome?</h1>
+    </header>
+
+    <div class="container">
+      <div id="input-container" class="container">
+        <label for="input-text">Enter in text to check for a palindrome:</label>
+        <div id="check-input">
+          <input type="text" id="input-text" />
+          <button id="check-btn">Check</button>
+        </div>
+      </div>
+
+      <div id="result-container" class="container">
+        <h2>
+          A palindrome is a word or sentence that's spelled the same way both
+          forward and backward, ignoring punctuation, case, and spacing.
+        </h2>
+        <div id="result"></div>
+      </div>
+    </div>
+
+    <!-- <nav>
+      <a href="#input-container">Input</a>
+      <a href="#result-container">Result</a>
+    </nav> -->
+  </body>
+</html>
+```
+
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,9 +147,11 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Is It A Palindrome?</h1>
-    <input type="-input" name="" id="" />
-    <button id="check-btn"></button>
-    <div id="result"></div>
+    <div class="container">
+      <h1>Is It A Palindrome?</h1>
+      <input type="text" class="input" />
+      <button id="check-btn">Check</button>
+      <div class="container" id="result"></div>
+    </div>
   </body>
-</html>
+</html> -->

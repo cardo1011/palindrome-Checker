@@ -1,3 +1,36 @@
+* {
+  background-color: #0a0a23;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
 h1 {
-  color: blue;
+  margin-top: 10em;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.container {
+  width: 40%;
+  min-height: 10vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  background-color: white;
+  border-radius: 40px;
+}
+
+#result {
+  background-color: darkgreen;
+  color: white;
 }
