@@ -1,2 +1,3 @@
-# RPG-game
-freeCodeCamp RPG game project 
+# palindrom-Checker
+
+freeCodeCamp Palindrome checker project
