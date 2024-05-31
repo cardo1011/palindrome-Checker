@@ -1,3 +1,2 @@
-# palindrom-Checker
+# palindrome-Checker
 
-freeCodeCamp Palindrome checker project
